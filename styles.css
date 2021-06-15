@@ -1,0 +1,74 @@
+html {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+@font-face {
+	font-family: 'recoleta';
+	src: url('fonts/recoleta.woff2') format('woff2'),
+	     url('fonts/recoleta.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: georgia, serif;
+	font-size: 20px;
+	line-height: 28px;
+	margin: 0;
+	background-color: #FBF4DA;
+}
+
+a {
+	color: #326919;
+}
+
+.media li {
+	margin-top: 15px;
+}
+
+p {
+	margin: 0 0 15px 0;
+}
+
+.headspace {
+	margin-top: 30px;
+}
+
+h1, h2 {
+	font-family: recoleta, georgia, serif;
+	line-height: 1.2em;
+}
+
+h1 {
+	font-size: 40px;
+	margin-bottom: 0;
+}
+
+h2 {
+	font-size: 30px;
+	line-height: 34px;
+	margin: 30px 0;
+	padding-top: 30px;
+}
+
+.container {
+	max-width: 700px;
+	margin: 50px auto;
+	padding: 0 15px;
+}
+
+h3 {
+
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+	border: 3px solid #BF1A23;
+}
