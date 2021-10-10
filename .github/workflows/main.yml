@@ -23,5 +23,5 @@ jobs:
           --recursive \
           --verbose \
           --human-readable \
-          --exclude deploy_key \
+          --exclude /deploy_key \
           ./ ${{env.dest}}
