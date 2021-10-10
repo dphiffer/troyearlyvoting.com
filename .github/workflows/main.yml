@@ -24,4 +24,6 @@ jobs:
           --verbose \
           --human-readable \
           --exclude /deploy_key \
+          --exclude /.git/ \
+          --exclude /.github/ \
           ./ ${{env.dest}}
